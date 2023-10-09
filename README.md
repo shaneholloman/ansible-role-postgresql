@@ -1,6 +1,6 @@
 # Ansible Role: PostgreSQL
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-postgresql/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-postgresql/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-postgresql/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-postgresql/actions/workflows/ci.yml)
 
 Installs and configures PostgreSQL server on RHEL/CentOS or Debian/Ubuntu servers.
 
@@ -150,4 +150,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-
