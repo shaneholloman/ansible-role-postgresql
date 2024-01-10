@@ -43,13 +43,10 @@ jobs:
       fail-fast: ${{ !contains(github.event_name, 'pull_request') }}
       matrix:
         distro:
-          - rockylinux8
           - rockylinux9
-          - fedora38
           - ubuntu2204
-          - ubuntu2004
-          - debian11
           - debian12
+          - fedora38
 
     steps:
       - name: Check out the codebase.
