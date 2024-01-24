@@ -1,13 +1,12 @@
 ---
-dependencies: []
-
 galaxy_info:
   role_name: postgresql
   author: shaneholloman
   description: PostgreSQL server for Linux.
   company: "shaneholloman"
   license: "license (Unlicense)"
-  min_ansible_version: "2.10"
+  min_ansible_version: "2.12"
+
   platforms:
     - name: ArchLinux
       versions:
@@ -30,8 +29,11 @@ galaxy_info:
         - buster
         - bullseye
         - bookworm
+
   galaxy_tags:
     - database
     - postgresql
     - postgres
     - rdbms
+
+dependencies: []
